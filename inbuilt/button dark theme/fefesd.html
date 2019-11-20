@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <style>
+        .background {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background: #618BFF;
+            transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+        }
+
+        .background--on {
+            background: black;
+            transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+        }
+        .sideit{
+            max-height: 50px;
+            max-width: 100%
+            positi
+            
+        }
+        .toggle-body {
+            width: 7rem;
+            height: 4rem;
+            position: relative;
+            top: calc(50% - 4rem / 2);
+            left: calc(50% - 7rem / 2);
+            background: white;
+
+            border-radius: 2rem;
+            -webkit-animation: angle-reverse 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+            animation: angle-reverse 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+        }
+
+        .toggle-body--on {
+            -webkit-animation: angle 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+            animation: angle 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+
+        .toggle-btn {
+            width: 2rem;
+            height: 2rem;
+            position: relative;
+            top: calc(50% - 2rem / 2);
+            left: calc(27% - 2rem / 2);
+            background: white;
+            border-radius: 2rem;
+            background: #618BFF;
+            cursor: pointer;
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+        }
+
+        .toggle-btn--on {
+            transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+            -webkit-transform: translateX(150%);
+            transform: translateX(150%);
+            background: black;
+        }
+
+        @-webkit-keyframes angle {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+        }
+
+        @keyframes angle {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+        }
+
+        @-webkit-keyframes angle-reverse {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+        }
+
+        @keyframes angle-reverse {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+        }
+
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body class="background">
+    <div class="sideit">
+        <div class="toggle-body">
+            <div class="toggle-btn"></div>
+        </div>
+    </div>
+    <div>
+    <p>
+        ehfbneifn
+    </p>
+    <p>
+        sxsxsX
+        s
+        xs
+        ax
+        
+        saadad
+        <br>dsx<br>hsb<br>as<br>au<br>ab<br>ijkx<br><br><br><br>sxsxsX
+        s
+        xs
+        ax
+        
+        saadad
+        <br>dsx<br>hsb<br>as<br>au<br>ab<br>ijkx<br><br><br><br>sxsxsX
+        s
+        xs
+        ax
+        
+        saadad
+        <br>dsx<br>hsb<br>as<br>au<br>ab<br>ijkx<br><br><br><br>sxsxsX
+        s
+        xs
+        ax
+        
+        saadad
+        <br>dsx<br>hsb<br>as<br>au<br>ab<br>ijkx<br><br><br><br>sxsxsX
+        s
+        xs
+        ax
+        
+        saadad
+        <br>dsx<br>hsb<br>as<br>au<br>ab<br>ijkx<br><br><br><br>sxsxsX
+        s
+        xs
+        ax
+        
+        saadad
+        <br>dsx<br>hsb<br>as<br>au<br>ab<br>ijkx<br><br><br><br>
+    </p>
+    </div>
+    <script>
+        const background = document.querySelector('.background');
+        const toggleBody = document.querySelector('.toggle-body');
+        const toggleBtn = document.querySelector('.toggle-btn');
+
+        toggleBtn.addEventListener('click', () => {
+            background.classList.toggle('background--on');
+            toggleBody.classList.toggle('toggle-body--on');
+            toggleBtn.classList.toggle('toggle-btn--on');
+            toggleBtn.classList.toggle('toggle-btn--scale');
+        });
+
+    </script>
+</body>
+
+</html>

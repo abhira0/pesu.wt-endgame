@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .5)), url("../img/about/greek-vase.png") repeat fixed;
+}
+header {
+    position: relative;
+    background-color: rgb(0,132,217);
+    
+    background-image: linear-gradient(to right, rgba(0,0,0,0.25), rgb(0,132,217),rgb(0,132,217),rgb(0,132,217),rgb(0,132,217), rgba(0,0,0,0.25));
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.main-gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 80px;
+}
+
+#mar {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.ioch{
+    text-align: center;
+}
+.ioc {
+    margin-top: 50px;
+    width: 100%;
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.05);
+    transition: 0.5s;
+
+}
+
+.ioc:nth-child(1) {
+    background-image: url("../img/gallery-c/ioc/1_bahamas_tmo_2019229_2048px-before.jpg");
+}
+.ioc:nth-child(1):hover {
+
+    background-image: url("../img/gallery-c/ioc/2_bahamas_tmo_2019250_2048px-after.jpg");
+}
+.ioc:nth-child(3) {
+    background-image: url("../img/gallery-c/ioc/1_ok_glacier_v2_2048x1536-before_.jpg");
+}
+.ioc:nth-child(3):hover {
+    background-image: url("../img/gallery-c/ioc/2_ok_glacier_v2_2048x1536-after_.jpg");
+}
+.ioc:nth-child(5) {
+    background-image: url("../img/gallery-c/ioc/1_1984_Lake_Powell_md-2048px-80-before.jpg");
+}
+.ioc:nth-child(5):hover {
+    background-image: url("../img/gallery-c/ioc/2_2018_Lake_Powell_md-2048px-80-after.jpg");
+}
+.ioc:nth-child(7) {
+    background-image: url("../img/gallery-c/ioc/1_arkansasriver_tmo_2018146_2048x1536-90-before.jpg");
+}
+.ioc:nth-child(7):hover {
+    background-image: url("../img/gallery-c/ioc/2_arkansasriver_amo_2019147_2048x1536-90-after.jpg");
+}
+.ioc:nth-child(9) {
+    background-image: url("../img/gallery-c/ioc/1_salardeuyuni_oli_201392_2048px-before.jpg");
+}
+.ioc:nth-child(9):hover {
+    background-image: url("../img/gallery-c/ioc/2_salardeuyuni_oli_20197_2048px-after.jpg");
+}
+.ioc:nth-child(11) {
+    background-image: url("../img/gallery-c/ioc/1_mississippipflooding_oli_2018156_2048-1536-90-before.jpg");
+}
+.ioc:nth-child(11):hover {
+    background-image: url("../img/gallery-c/ioc/2_mississippipflooding_oli_2019127_2048x1536-90-after.jpg");
+}
+.ioc:nth-child(13) {
+    background-image: url("../img/gallery-c/ioc/1_lakeaculeo_oli_201457_2048x1536-before_.jpg");
+}
+.ioc:nth-child(13):hover {
+    background-image: url("../img/gallery-c/ioc/2_lakeaculeo_oli_201971_2048x1536-after_.jpg");
+}
+.ioc:nth-child(15) {
+    background-image: url("../img/gallery-c/ioc/1_vavilov_eo_2048x1536_v2vavilovicecap_oli_2013182_lrg-before_.jpg");
+}
+.ioc:nth-child(15):hover {
+    background-image: url("../img/gallery-c/ioc/2_vavilov_eo_2048x1536_v2vavilovicecap_oli_2018175_lrg-after_.jpg");
+}
+.ioc:nth-child(17) {
+    background-image: url("../img/gallery-c/ioc/1_desmoinesflooding_oli_201874_2048px-before.jpg");
+}
+.ioc:nth-child(17):hover {
+    background-image: url("../img/gallery-c/ioc/2_desmoinesflooding_oli_201977_2048px-after.jpg");
+}
+
+
+.txti {
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+}
+p {
+    top: 50%;
+  left: 50%;
+}

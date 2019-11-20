@@ -1,0 +1,118 @@
+/*
+#slim {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kurale|Merriweather|Prompt&display=swap');
+
+.container-org > div {
+                background: #eee;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.container-org > div:nth-child(odd) {
+                background: #ddd;
+}
+
+.container-org {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+        cards image
+.card > img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+        cards - font& link properties
+.org-name {
+    text-align: center;
+    font-family: 'Kurale', serif;
+}
+
+.org-desc {
+    font-family: 'Merriweather', serif;
+}
+
+.button-but {
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+}
+
+.button-but > a:hover {
+
+    color: skyblue;
+}
+
+.button-but > a:active {
+    color: red;
+
+            
+}
+
+
+.svg-wrapper {
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 320px;
+}
+
+.shape {
+    fill: transparent;
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    stroke: #19f6e8;
+}
+
+.text {
+    color: grey;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    position: relative;
+    top: -52px;
+}
+
+@keyframes draw {
+    0% {
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+    }
+
+    100% {
+        stroke-dasharray: 760;
+        stroke-dashoffset: 0;
+        stroke-width: 2px;
+    }
+}
+
+.svg-wrapper:hover .shape {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+}
+
+body {
+    padding: 60px;
+}
+*/

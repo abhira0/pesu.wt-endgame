@@ -1,0 +1,200 @@
+#slim-wa {
+    margin: 0 15%;
+}
+body
+{
+    background: linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.25),rgba(0,0,0,.5)),url("../img/about/greek-vase.png") repeat fixed;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.blog-card-blog {
+    margin-top: 30px;
+}
+
+.blog-card {
+    display: inline-block;
+/*    position: relative;*/
+    position: static;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.blog-card:hover .blog-card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -10px;
+/*    margin-bottom:31%;*/
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+.blog-card .blog-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.blog-card .blog-table {
+    padding: 15px 30px;
+}
+
+.blog-table {
+    margin-bottom: 0px;
+}
+
+.blog-category {
+    position: relative;
+/*    line-height: 0;*/
+    margin: 15px 0;
+}
+
+.blog-text-success {
+    color: #28a745 !important;
+}
+
+.blog-card-blog .blog-card-caption {
+    margin-top: 5px;
+}
+
+.blog-card-caption {
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.blog-card-caption,
+.blog-card-caption a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*
+p {
+    color: #3C4857;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*/
+
+.blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+
+.blog-card .ftr .stats {
+    float: right;
+    line-height: 30px;
+}
+
+
+
+/*button*/
+.draw-border {
+    box-shadow: inset 0 0 0 4px #58afd1;
+    color: #58afd1;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    float: right;
+    margin: 5px 15px 15px 0;
+}
+
+.draw-border::before,
+.draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.draw-border:hover {
+    color: rebeccapurple;
+}
+
+.draw-border:hover::before,
+.draw-border:hover::after {
+    border-color: rebeccapurple;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+}
+
+ section .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+}
+
+.btn:focus {
+    outline: 2px dotted #55d7dc;
+}
+
+/*header & footer*/
+
+header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}

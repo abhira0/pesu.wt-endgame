@@ -1,0 +1,75 @@
+.grid-container-w {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas: "main-para main-para main-para main-para"
+                "sec-para sec-para waste-para-img waste-para-img"
+                "sec-para sec-para waste-para-img waste-para-img"
+                "sec-para sec-para waste-para-img waste-para-img";
+        }
+
+        .wrapper-w {
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .grid-head-w {
+            text-align: center;
+            background-color: floralwhite;
+            border-radius: 5px;
+            margin: auto;
+
+        }
+
+        .main-para-w {
+            grid-area: main-para;
+            margin: 0px;
+            padding: 0px;
+            background-color: floralwhite;
+            border-radius: 5px;
+        }
+
+        .sec-para-w {
+            grid-area: sec-para;
+            background-color: floralwhite;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-right: 10px;
+            align-items: flex-end;
+        }
+
+        .waste-para-img {
+            grid-area: waste-para-img;
+            background-color: floralwhite;
+            border-radius: 5px;
+            margin: 0px;
+            margin-top: 10px;
+
+
+        }
+
+        .waste-para-img>figure>img {
+            max-width: 95%;
+            height: auto;
+            border-radius: 5px;
+            display: block;
+            margin: auto;
+            padding: auto;
+
+        }
+
+        .img-fig-w {
+            padding: 0px;
+            margin: auto;
+        }
+
+        #slim-page-w {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+
+        .wrapper-w {
+            margin-bottom: 140px;
+            margin-top: 140px;
+            background-color: black;
+        }
